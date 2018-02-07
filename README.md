@@ -7,8 +7,6 @@ Google chrome Extension that lets you look up professors on Rate My Professors r
 * Go to ``chrome://extensions/`` in Google Chrome and enable Developer mode.
 * Click Load unpacked extension... and select the cloned ``kennethtran91-RateMyProf`` folder.
 
-This extension does not currently work for the course listings that are accessed via the registration login (OSU Portal).
-
 ## How To Usage
 * ``Highlight`` your professors name then click to the Thinking icon.
 * Choose your ``department`` then hit ``Search``
