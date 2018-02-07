@@ -14,7 +14,7 @@ This extension does not currently work for the course listings that are accessed
 * Choose your ``department`` then hit ``Search``
 
 
-# Preview
+### Preview
 ![alt text](https://i.imgur.com/GvJMkyp.gif)
 
 ![alt text](https://i.imgur.com/Bt4oTzH.gif)
