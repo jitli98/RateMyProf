@@ -15,7 +15,7 @@ This extension does not currently work for the course listings that are accessed
 
 
 # Preview
-![alt text](https://i.imgur.com/eX7lgCM.gif)
+![alt text](https://i.imgur.com/GvJMkyp.gif)
 
 ![alt text](https://i.imgur.com/Bt4oTzH.gif)
 
