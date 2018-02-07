@@ -20,6 +20,21 @@
         overflow: hidden;
         max-width: 400px;
       }
+
+      .button {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 12px;
+          margin: 4px 2px;
+          cursor: pointer;
+      }
+      .button2:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
 }
     </style>
 
@@ -36,12 +51,83 @@
         <center><small>Oklahoma State University</small></br>
         <select id="dept" class="rmp-form">
             <option id="blank">Select Your Department</option>
-            <option id="accouting">Accounting</option>
-            <option id="computerscience">CS</option>
-            <option id="mathematic">MATH</option>
 
-        <!--   <input type="button" value="Search" id="rmp-search"> -->
+            <option id="Accounting" >Accounting</option>
+            <option id="Aerospace Engineering" >Aerospace Engineering</option>
+            <option id="Aerospace Studies" >Aerospace Studies</option>
+            <option id="Agriculture" >Agriculture</option>
+            <option id="Anatomy">Anatomy</option>
+            <option id="Animal Science">Animal Science</option>
+            <option id="Anthropology">Anthropology</option>
+            <option id="Architecture">Architecture</option>
+            <option id="Art">Art</option>
+            <option id="Arts &amp; Sciences">Arts &amp; Sciences</option>
+            <option id="Biochemistry">Biochemistry</option>
+            <option id="Biology">Biology</option>
+            <option id="Botany">Botany</option>
+            <option id="Business">Business</option>
+            <option id="Chemistry">Chemistry</option>
+            <option id="Child &amp; Family Studies">Child &amp; Family Studies</option>
+            <option id="Classics">Classics</option>
+            <option id="Communication">Communication</option>
+            <option id="Computer Science">Computer Science</option>
+            <option id="Criminal Justice">Criminal Justice</option>
+            <option id="Culinary Arts">Culinary Arts</option>
+            <option id="Design" >Design</option>
+            <option id="Economics" >Economics</option>
+            <option id="Education" >Education</option>
+            <option id="Engineering" >Engineering</option>
+            <option id="English" >English</option>
+            <option id="Entomology">Entomology</option>
+            <option id="Ethnic Studies">Ethnic Studies</option>
+            <option id="Film">Film</option>
+            <option id="Finance">Finance</option>
+            <option id="Fine Arts">Fine Arts</option>
+            <option id="Geography">Geography</option>
+            <option id="Geology">Geology</option>
+            <option id="Graphic Arts">Graphic Arts</option>
+            <option id="Health Science">Health Science</option>
+            <option id="History">History</option>
+            <option id="Hospitality">Hospitality</option>
+            <option id="Human Development">Human Development</option>
+            <option id="Humanities">Humanities</option>
+            <option id="Information Science">Information Science</option>
+            <option id="International Studies">International Studies</option>
+            <option id="Journalism">Journalism</option>
+            <option id="Languages">Languages</option>
+            <option id="Law">Law</option>
+            <option id="Leadership">Leadership</option>
+            <option id="Library Science">Library Science</option>
+            <option id="Literature">Literature</option>
+            <option id="Management">Management</option>
+            <option id="Marketing">Marketing</option>
+            <option id="Mathematics">Mathematics</option>
+            <option id="Mechanical Engineering">Mechanical Engineering</option>
+            <option id="Medicine">Medicine</option>
+            <option id="Microbio. &amp; Molecular Genetics">Microbio. &amp; Molecular Genetics</option>
+            <option id="Music">Music</option>
+            <option id="Nursing">Nursing</option>
+            <option id="Nutrition">Nutrition</option>
+            <option id="Philosophy">Philosophy</option>
+            <option id="Physical Education">Physical Education</option>
+            <option id="Physics">Physics</option>
+            <option id="Political Science">Political Science</option>
+            <option id="Psychology">Psychology</option>
+            <option id="Public Safety">Public Safety</option>
+            <option id="Religion">Religion</option>
+            <option id="Science">Science</option>
+            <option id="Social Science">Social Science</option>
+            <option id="Social Work">Social Work</option>
+            <option id="Sociology">Sociology</option>
+            <option id="Statistics">Statistics</option>
+            <option id="Student Services">Student Services</option>
+            <option id="Theater">Theater</option>
+            <option id="Women's Studies">Women's Studies</option>
+            <option id="Writing">Writing</option>
+            <option id="Zoology">Zoology</option>
+
         </select>
+        <div id='rmp-form'><input type="button" value="Search" class='button button2' id="rmp-search" style="display: none;"></div>
         <div id="rmp-menu">
         <small id="status"></small>
       </div>

@@ -1,6 +1,5 @@
 function popup_search() {
 	//console.log(document.getElementById('dept').value);
-
 	chrome.tabs.executeScript({
 		file: 'contentscript.js'
 	});
@@ -45,6 +44,7 @@ var select = document.getElementById('dept');
 } else {
 	selecteddepartment = select.options[select.selectedIndex].value;
 	document.getElementById("status").innerHTML = "Department: " + selecteddepartment;
+	document.getElementById('rmp-search').style.display='block';
 	document.addEventListener('click', popup_search);
 	console.log(selecteddepartment);
 }
