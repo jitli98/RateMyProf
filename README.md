@@ -1,4 +1,4 @@
-# OSU RateMyProfessors Extension
+# OSU RateMyProfessors Chrome Extension
 
 Google chrome Extension that lets you look up professors on Rate My Professors right on your course websites!
 
