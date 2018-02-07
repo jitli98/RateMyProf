@@ -1,5 +1,6 @@
 #rmp-body{
 	margin:0;
+<<<<<<< HEAD
 	display: inline-block;
 }
 
@@ -15,11 +16,17 @@
 }
 
 
+=======
+}
+>>>>>>> 02251a21ae274d830beafecf94c61d62862e8970
 #rmp-menu{
 	width: 300px;
 	background-color: #f8f8f8;
 	margin:0;
+<<<<<<< HEAD
 	display: inline-block;
+=======
+>>>>>>> 02251a21ae274d830beafecf94c61d62862e8970
 }
 
 #rmp-menu .title{

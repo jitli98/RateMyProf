@@ -1,5 +1,9 @@
 function popup_search() {
 	//console.log(document.getElementById('dept').value);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 02251a21ae274d830beafecf94c61d62862e8970
 	chrome.tabs.executeScript({
 		file: 'contentscript.js'
 	});
@@ -44,7 +48,10 @@ var select = document.getElementById('dept');
 } else {
 	selecteddepartment = select.options[select.selectedIndex].value;
 	document.getElementById("status").innerHTML = "Department: " + selecteddepartment;
+<<<<<<< HEAD
 	document.getElementById('rmp-search').style.display='block';
+=======
+>>>>>>> 02251a21ae274d830beafecf94c61d62862e8970
 	document.addEventListener('click', popup_search);
 	console.log(selecteddepartment);
 }
