@@ -12,5 +12,12 @@ This extension does not currently work for the course listings that are accessed
 ## How To Usage
 * ``Highlight`` your professors name then click to the Thinking icon.
 * Choose your ``department`` then hit ``Search``
+![alt text](https://imgur.com/GvJMkyp)
+
+![alt text](https://imgur.com/Bt4oTzH)
+
+![alt text](https://imgur.com/eX7lgCM)
+
+
 
 ``Developer mode can be disabled after loading the extension.``
