@@ -105,17 +105,20 @@
 .rmp-num-score-low{
 	color: red;
 	float:right;
+	font-weight: 510;
 }
 
 .rmp-num-score-mid{
 	float:right;
 	color: yellow;
+	font-weight: 510;
 
 }
 
 .rmp-num-score-high{
 	float:right;
-	color: green;
+	color: #00E676;
+	font-weight: 510;
 }
 
 .rmp-navigation :nth-child(1){

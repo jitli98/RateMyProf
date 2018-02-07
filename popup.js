@@ -11,7 +11,7 @@ function popup_search() {
 
 	chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
 		chrome.tabs.sendMessage(tabs[0].id,
-			{department: document.getElementById('dept').value});
+			{'department': document.getElementById('dept').value});
 	});
 	chrome.storage.sync.set(
 		{'department': document.getElementById('dept').value}
@@ -19,7 +19,7 @@ function popup_search() {
 }
 
 document.body.onload = function(){
-	chrome.storage.sync.get(['department'], function(items){
+	chrome.storage.sync.get('department', function(items){
 		//if (items.school != undefined){
 		//	document.querySelectorAll('input[type="text"]')[0].value = items.school;
 		//}
@@ -36,19 +36,16 @@ document.body.onload = function(){
 }
 
 
-//document.getElementById('rmp-search').addEventListener('click', popup_search);
-var selecteddepartment;
+document.getElementById('rmp-search').addEventListener('click', popup_search);
+
+/*var selecteddepartment;
 var select = document.getElementById('dept');
-	select.addEventListener('change', () => {
+
 	if(document.getElementById("dept").value == 'Select Your Department'){
 		document.getElementById("status").innerHTML = "";
-} else {
+} else if(document.getElementById("dept").value != 'Select Your Department') {
 	selecteddepartment = select.options[select.selectedIndex].value;
-	document.getElementById("status").innerHTML = "Department: " + selecteddepartment;
-
-	document.getElementById('rmp-search').style.display='block';
-
-	document.addEventListener('click', popup_search);
+	document.getElementById("status").innerHTML = selecteddepartment;
+	document.getElementById("rmp-search").addEventListener('click', popup_search);
 	console.log(selecteddepartment);
-}
-});
+};*/
